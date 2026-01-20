@@ -14,6 +14,7 @@
       { "partnerId": "singapore", "ratio": 1 },
       { "partnerId": "aeroplan", "ratio": 1 },
       { "partnerId": "emirates", "ratio": 1 },
+      { "partnerId": "iberia", "ratio": 1 },
       { "partnerId": "hyatt", "ratio": 1 },
       { "partnerId": "marriott", "ratio": 1 },
       { "partnerId": "ihg", "ratio": 1 }
@@ -35,6 +36,11 @@
       { "partnerId": "aeroplan", "ratio": 1 },
       { "partnerId": "emirates", "ratio": 1 },
       { "partnerId": "jetblue", "ratio": 0.8 },
+      { "partnerId": "cathay", "ratio": 1 },
+      { "partnerId": "qantas", "ratio": 1 },
+      { "partnerId": "iberia", "ratio": 1 },
+      { "partnerId": "etihad", "ratio": 1 },
+      { "partnerId": "hawaiian", "ratio": 1 },
       { "partnerId": "hilton", "ratio": 2 },
       { "partnerId": "marriott", "ratio": 1 },
       { "partnerId": "choice", "ratio": 1 }
@@ -53,8 +59,16 @@
       { "partnerId": "singapore", "ratio": 1 },
       { "partnerId": "jetblue", "ratio": 1 },
       { "partnerId": "emirates", "ratio": 1 },
+      { "partnerId": "cathay", "ratio": 1 },
+      { "partnerId": "qantas", "ratio": 1 },
+      { "partnerId": "turkish", "ratio": 1 },
+      { "partnerId": "etihad", "ratio": 1 },
+      { "partnerId": "qatar", "ratio": 1 },
+      { "partnerId": "eva", "ratio": 1 },
+      { "partnerId": "tap", "ratio": 1 },
       { "partnerId": "choice", "ratio": 1 },
-      { "partnerId": "wyndham", "ratio": 1 }
+      { "partnerId": "wyndham", "ratio": 1 },
+      { "partnerId": "accor", "ratio": 1 }
     ]
   },
   {
@@ -71,8 +85,39 @@
       { "partnerId": "emirates", "ratio": 1 },
       { "partnerId": "jetblue", "ratio": 1 },
       { "partnerId": "aeroplan", "ratio": 1 },
+      { "partnerId": "cathay", "ratio": 1 },
+      { "partnerId": "qantas", "ratio": 1 },
+      { "partnerId": "turkish", "ratio": 1 },
+      { "partnerId": "etihad", "ratio": 1 },
+      { "partnerId": "finnair", "ratio": 1 },
+      { "partnerId": "tap", "ratio": 1 },
+      { "partnerId": "aeromexico", "ratio": 1 },
       { "partnerId": "wyndham", "ratio": 1 },
-      { "partnerId": "choice", "ratio": 1 }
+      { "partnerId": "choice", "ratio": 1 },
+      { "partnerId": "accor", "ratio": 1 }
+    ]
+  },
+  {
+    "id": "bilt",
+    "name": "Bilt Rewards",
+    "issuer": "Bilt",
+    "baselineCpp": 1.5,
+    "color": "#000000",
+    "transferPartners": [
+      { "partnerId": "united", "ratio": 1 },
+      { "partnerId": "american", "ratio": 1 },
+      { "partnerId": "alaska", "ratio": 1 },
+      { "partnerId": "flying-blue", "ratio": 1 },
+      { "partnerId": "avios", "ratio": 1 },
+      { "partnerId": "virgin-atlantic", "ratio": 1 },
+      { "partnerId": "aeroplan", "ratio": 1 },
+      { "partnerId": "emirates", "ratio": 1 },
+      { "partnerId": "cathay", "ratio": 1 },
+      { "partnerId": "turkish", "ratio": 1 },
+      { "partnerId": "iberia", "ratio": 1 },
+      { "partnerId": "hyatt", "ratio": 1 },
+      { "partnerId": "ihg", "ratio": 1 },
+      { "partnerId": "marriott", "ratio": 1 }
     ]
   },
   {
@@ -89,6 +134,35 @@
     "issuer": "Chase",
     "baselineCpp": 0.8,
     "color": "#A50034",
-    "transferPartners": []
+    "transferPartners": [
+      { "partnerId": "united", "ratio": 0.33 },
+      { "partnerId": "delta", "ratio": 0.33 },
+      { "partnerId": "american", "ratio": 0.33 },
+      { "partnerId": "southwest", "ratio": 0.33 },
+      { "partnerId": "alaska", "ratio": 0.33 },
+      { "partnerId": "flying-blue", "ratio": 0.33 },
+      { "partnerId": "avios", "ratio": 0.33 },
+      { "partnerId": "emirates", "ratio": 0.33 },
+      { "partnerId": "aeroplan", "ratio": 0.33 },
+      { "partnerId": "ana", "ratio": 0.33 },
+      { "partnerId": "singapore", "ratio": 0.33 },
+      { "partnerId": "cathay", "ratio": 0.33 },
+      { "partnerId": "qantas", "ratio": 0.33 },
+      { "partnerId": "turkish", "ratio": 0.33 },
+      { "partnerId": "jal", "ratio": 0.33 }
+    ]
+  },
+  {
+    "id": "wells-fargo",
+    "name": "Wells Fargo Rewards",
+    "issuer": "Wells Fargo",
+    "baselineCpp": 1.0,
+    "color": "#D71E28",
+    "transferPartners": [
+      { "partnerId": "flying-blue", "ratio": 1 },
+      { "partnerId": "avios", "ratio": 1 },
+      { "partnerId": "aeroplan", "ratio": 1 },
+      { "partnerId": "choice", "ratio": 1 }
+    ]
   }
 ]

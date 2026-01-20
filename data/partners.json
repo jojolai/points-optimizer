@@ -35,6 +35,34 @@
     "alliance": null
   },
   {
+    "id": "alaska",
+    "name": "Alaska Mileage Plan",
+    "type": "airline",
+    "baselineCpp": 1.8,
+    "alliance": "Oneworld"
+  },
+  {
+    "id": "hawaiian",
+    "name": "Hawaiian Miles",
+    "type": "airline",
+    "baselineCpp": 1.2,
+    "alliance": null
+  },
+  {
+    "id": "frontier",
+    "name": "Frontier Miles",
+    "type": "airline",
+    "baselineCpp": 0.8,
+    "alliance": null
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit Free Spirit",
+    "type": "airline",
+    "baselineCpp": 0.9,
+    "alliance": null
+  },
+  {
     "id": "flying-blue",
     "name": "Air France/KLM Flying Blue",
     "type": "airline",
@@ -84,6 +112,111 @@
     "alliance": "Star Alliance"
   },
   {
+    "id": "lifemiles",
+    "name": "Avianca LifeMiles",
+    "type": "airline",
+    "baselineCpp": 1.4,
+    "alliance": "Star Alliance"
+  },
+  {
+    "id": "turkish",
+    "name": "Turkish Miles&Smiles",
+    "type": "airline",
+    "baselineCpp": 1.6,
+    "alliance": "Star Alliance"
+  },
+  {
+    "id": "lufthansa",
+    "name": "Lufthansa Miles & More",
+    "type": "airline",
+    "baselineCpp": 1.0,
+    "alliance": "Star Alliance"
+  },
+  {
+    "id": "eva",
+    "name": "EVA Infinity MileageLands",
+    "type": "airline",
+    "baselineCpp": 1.4,
+    "alliance": "Star Alliance"
+  },
+  {
+    "id": "tap",
+    "name": "TAP Miles&Go",
+    "type": "airline",
+    "baselineCpp": 1.2,
+    "alliance": "Star Alliance"
+  },
+  {
+    "id": "ethiopian",
+    "name": "Ethiopian ShebaMiles",
+    "type": "airline",
+    "baselineCpp": 1.3,
+    "alliance": "Star Alliance"
+  },
+  {
+    "id": "korean",
+    "name": "Korean Air SKYPASS",
+    "type": "airline",
+    "baselineCpp": 1.5,
+    "alliance": "SkyTeam"
+  },
+  {
+    "id": "aeromexico",
+    "name": "Aeromexico Club Premier",
+    "type": "airline",
+    "baselineCpp": 1.2,
+    "alliance": "SkyTeam"
+  },
+  {
+    "id": "cathay",
+    "name": "Cathay Pacific Asia Miles",
+    "type": "airline",
+    "baselineCpp": 1.5,
+    "alliance": "Oneworld"
+  },
+  {
+    "id": "qantas",
+    "name": "Qantas Frequent Flyer",
+    "type": "airline",
+    "baselineCpp": 1.4,
+    "alliance": "Oneworld"
+  },
+  {
+    "id": "iberia",
+    "name": "Iberia Plus",
+    "type": "airline",
+    "baselineCpp": 1.3,
+    "alliance": "Oneworld"
+  },
+  {
+    "id": "jal",
+    "name": "JAL Mileage Bank",
+    "type": "airline",
+    "baselineCpp": 1.4,
+    "alliance": "Oneworld"
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar Privilege Club",
+    "type": "airline",
+    "baselineCpp": 1.4,
+    "alliance": "Oneworld"
+  },
+  {
+    "id": "finnair",
+    "name": "Finnair Plus",
+    "type": "airline",
+    "baselineCpp": 1.2,
+    "alliance": "Oneworld"
+  },
+  {
+    "id": "etihad",
+    "name": "Etihad Guest",
+    "type": "airline",
+    "baselineCpp": 1.3,
+    "alliance": null
+  },
+  {
     "id": "hyatt",
     "name": "World of Hyatt",
     "type": "hotel",
@@ -123,6 +256,13 @@
     "name": "Wyndham Rewards",
     "type": "hotel",
     "baselineCpp": 0.9,
+    "alliance": null
+  },
+  {
+    "id": "accor",
+    "name": "Accor Live Limitless",
+    "type": "hotel",
+    "baselineCpp": 0.6,
     "alliance": null
   }
 ]
