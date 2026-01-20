@@ -6,6 +6,13 @@ interface PartnerCardProps {
   baseCpp: number;
 }
 
+const ratingColors: Record<string, string> = {
+  Excellent: '#16a34a', // green-600
+  Good: '#2563eb',      // blue-600
+  Average: '#ca8a04',   // yellow-600
+  Poor: '#dc2626',      // red-600
+};
+
 export default function PartnerCard({ partner, baseCpp }: PartnerCardProps) {
   const rating = getCppRating(partner.effectiveCpp);
   const improvement = ((partner.effectiveCpp - baseCpp) / baseCpp) * 100;
@@ -32,7 +39,10 @@ export default function PartnerCard({ partner, baseCpp }: PartnerCardProps) {
           </div>
         </div>
         <div className="text-right">
-          <div className={`text-lg font-bold ${rating.color}`}>
+          <div
+            className="text-lg font-bold"
+            style={{ color: ratingColors[rating.label] }}
+          >
             {formatCpp(partner.effectiveCpp)}
           </div>
           <div className="text-xs text-gray-500">{rating.label}</div>
@@ -42,11 +52,11 @@ export default function PartnerCard({ partner, baseCpp }: PartnerCardProps) {
       <div className="grid grid-cols-2 gap-4 text-sm">
         <div>
           <div className="text-gray-500">Transfer Ratio</div>
-          <div className="font-medium">{formatRatio(partner.ratio)}</div>
+          <div className="font-medium text-gray-900">{formatRatio(partner.ratio)}</div>
         </div>
         <div>
           <div className="text-gray-500">Partner Base CPP</div>
-          <div className="font-medium">{formatCpp(partner.baselineCpp)}</div>
+          <div className="font-medium text-gray-900">{formatCpp(partner.baselineCpp)}</div>
         </div>
       </div>
 

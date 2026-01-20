@@ -5,6 +5,13 @@ interface CppRatingProps {
   size?: 'sm' | 'md' | 'lg';
 }
 
+const ratingColors: Record<string, string> = {
+  Excellent: '#16a34a', // green-600
+  Good: '#2563eb',      // blue-600
+  Average: '#ca8a04',   // yellow-600
+  Poor: '#dc2626',      // red-600
+};
+
 export default function CppRating({ cpp, size = 'md' }: CppRatingProps) {
   const rating = getCppRating(cpp);
 
@@ -22,7 +29,10 @@ export default function CppRating({ cpp, size = 'md' }: CppRatingProps) {
 
   return (
     <div className="text-center">
-      <div className={`font-bold ${rating.color} ${sizeClasses[size]}`}>
+      <div
+        className={`font-bold ${sizeClasses[size]}`}
+        style={{ color: ratingColors[rating.label] }}
+      >
         {formatCpp(cpp)}
       </div>
       <div

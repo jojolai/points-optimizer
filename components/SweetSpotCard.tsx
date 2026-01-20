@@ -9,6 +9,13 @@ interface SweetSpotCardProps {
   currencyName: string;
 }
 
+const ratingColors: Record<string, string> = {
+  Excellent: '#16a34a', // green-600
+  Good: '#2563eb',      // blue-600
+  Average: '#ca8a04',   // yellow-600
+  Poor: '#dc2626',      // red-600
+};
+
 export default function SweetSpotCard({ sweetSpot, currencyName }: SweetSpotCardProps) {
   const rating = getCppRating(sweetSpot.cpp);
 
@@ -44,7 +51,10 @@ export default function SweetSpotCard({ sweetSpot, currencyName }: SweetSpotCard
           )}
         </div>
         <div className="text-right ml-4">
-          <div className={`text-xl font-bold ${rating.color}`}>
+          <div
+            className="text-xl font-bold"
+            style={{ color: ratingColors[rating.label] }}
+          >
             {formatCpp(sweetSpot.cpp)}
           </div>
           <div className="text-xs text-gray-500">{rating.label}</div>
