@@ -1,0 +1,94 @@
+[
+  {
+    "id": "chase-ur",
+    "name": "Ultimate Rewards",
+    "issuer": "Chase",
+    "baselineCpp": 1.5,
+    "color": "#0047BB",
+    "transferPartners": [
+      { "partnerId": "united", "ratio": 1 },
+      { "partnerId": "southwest", "ratio": 1 },
+      { "partnerId": "flying-blue", "ratio": 1 },
+      { "partnerId": "avios", "ratio": 1 },
+      { "partnerId": "virgin-atlantic", "ratio": 1 },
+      { "partnerId": "singapore", "ratio": 1 },
+      { "partnerId": "aeroplan", "ratio": 1 },
+      { "partnerId": "emirates", "ratio": 1 },
+      { "partnerId": "hyatt", "ratio": 1 },
+      { "partnerId": "marriott", "ratio": 1 },
+      { "partnerId": "ihg", "ratio": 1 }
+    ]
+  },
+  {
+    "id": "amex-mr",
+    "name": "Membership Rewards",
+    "issuer": "American Express",
+    "baselineCpp": 1.0,
+    "color": "#006FCF",
+    "transferPartners": [
+      { "partnerId": "delta", "ratio": 1 },
+      { "partnerId": "flying-blue", "ratio": 1 },
+      { "partnerId": "avios", "ratio": 1 },
+      { "partnerId": "virgin-atlantic", "ratio": 1 },
+      { "partnerId": "singapore", "ratio": 1 },
+      { "partnerId": "ana", "ratio": 1 },
+      { "partnerId": "aeroplan", "ratio": 1 },
+      { "partnerId": "emirates", "ratio": 1 },
+      { "partnerId": "jetblue", "ratio": 0.8 },
+      { "partnerId": "hilton", "ratio": 2 },
+      { "partnerId": "marriott", "ratio": 1 },
+      { "partnerId": "choice", "ratio": 1 }
+    ]
+  },
+  {
+    "id": "citi-typ",
+    "name": "ThankYou Points",
+    "issuer": "Citi",
+    "baselineCpp": 1.0,
+    "color": "#003DA5",
+    "transferPartners": [
+      { "partnerId": "flying-blue", "ratio": 1 },
+      { "partnerId": "avios", "ratio": 1 },
+      { "partnerId": "virgin-atlantic", "ratio": 1 },
+      { "partnerId": "singapore", "ratio": 1 },
+      { "partnerId": "jetblue", "ratio": 1 },
+      { "partnerId": "emirates", "ratio": 1 },
+      { "partnerId": "choice", "ratio": 1 },
+      { "partnerId": "wyndham", "ratio": 1 }
+    ]
+  },
+  {
+    "id": "capital-one",
+    "name": "Capital One Miles",
+    "issuer": "Capital One",
+    "baselineCpp": 1.0,
+    "color": "#D03027",
+    "transferPartners": [
+      { "partnerId": "flying-blue", "ratio": 1 },
+      { "partnerId": "avios", "ratio": 1 },
+      { "partnerId": "virgin-atlantic", "ratio": 1 },
+      { "partnerId": "singapore", "ratio": 1 },
+      { "partnerId": "emirates", "ratio": 1 },
+      { "partnerId": "jetblue", "ratio": 1 },
+      { "partnerId": "aeroplan", "ratio": 1 },
+      { "partnerId": "wyndham", "ratio": 1 },
+      { "partnerId": "choice", "ratio": 1 }
+    ]
+  },
+  {
+    "id": "amex-hilton",
+    "name": "Hilton Honors",
+    "issuer": "American Express",
+    "baselineCpp": 0.5,
+    "color": "#003B6F",
+    "transferPartners": []
+  },
+  {
+    "id": "chase-marriott",
+    "name": "Marriott Bonvoy",
+    "issuer": "Chase",
+    "baselineCpp": 0.8,
+    "color": "#A50034",
+    "transferPartners": []
+  }
+]

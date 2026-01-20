@@ -1,0 +1,117 @@
+[
+  {
+    "id": "hyatt-cat1-4",
+    "name": "Hyatt Category 1-4 Hotels",
+    "description": "Hyatt's lower category hotels offer exceptional value, especially in destinations like Tokyo, Paris, and various US cities",
+    "partnerId": "hyatt",
+    "pointsRequired": 12000,
+    "estimatedCashValue": 250,
+    "cpp": 2.08,
+    "category": "hotel",
+    "route": "Various global locations"
+  },
+  {
+    "id": "ana-partner-biz",
+    "name": "ANA Partner Business Class",
+    "description": "Book business class on Star Alliance partners using ANA miles. US to Europe roundtrip for 88,000 miles",
+    "partnerId": "ana",
+    "pointsRequired": 88000,
+    "estimatedCashValue": 5000,
+    "cpp": 5.68,
+    "category": "flight",
+    "route": "US → Europe",
+    "cabin": "Business"
+  },
+  {
+    "id": "virgin-ana-first",
+    "name": "ANA First Class via Virgin Atlantic",
+    "description": "Book ANA First Class using Virgin Atlantic miles. US to Japan roundtrip for 120,000 miles",
+    "partnerId": "virgin-atlantic",
+    "pointsRequired": 120000,
+    "estimatedCashValue": 20000,
+    "cpp": 16.67,
+    "category": "flight",
+    "route": "US → Japan",
+    "cabin": "First"
+  },
+  {
+    "id": "avios-short-haul",
+    "name": "Avios Short-Haul Flights",
+    "description": "British Airways Avios are excellent for short-haul flights under 650 miles. One-way from 7,500 Avios",
+    "partnerId": "avios",
+    "pointsRequired": 7500,
+    "estimatedCashValue": 150,
+    "cpp": 2.0,
+    "category": "flight",
+    "route": "Short-haul < 650mi"
+  },
+  {
+    "id": "flying-blue-promo",
+    "name": "Flying Blue Promo Awards",
+    "description": "Air France/KLM offers monthly promo awards with 25-50% off. Business class to Europe from 53,000 miles",
+    "partnerId": "flying-blue",
+    "pointsRequired": 53000,
+    "estimatedCashValue": 3000,
+    "cpp": 5.66,
+    "category": "flight",
+    "route": "US → Europe",
+    "cabin": "Business"
+  },
+  {
+    "id": "aeroplan-mini-rtw",
+    "name": "Aeroplan Mini Round-the-World",
+    "description": "Build complex itineraries with up to 16 segments. Business class mini-RTW for ~200,000 miles",
+    "partnerId": "aeroplan",
+    "pointsRequired": 200000,
+    "estimatedCashValue": 15000,
+    "cpp": 7.5,
+    "category": "flight",
+    "route": "Multi-city RTW",
+    "cabin": "Business"
+  },
+  {
+    "id": "singapore-biz-us-asia",
+    "name": "Singapore Airlines Business Class",
+    "description": "Book SQ's excellent business class product. US to Singapore from 92,000 miles one-way",
+    "partnerId": "singapore",
+    "pointsRequired": 92000,
+    "estimatedCashValue": 4500,
+    "cpp": 4.89,
+    "category": "flight",
+    "route": "US → Singapore",
+    "cabin": "Business"
+  },
+  {
+    "id": "united-excursionist",
+    "name": "United Excursionist Perk",
+    "description": "Get a free one-way flight in the same region when booking roundtrip. Adds significant value to any booking",
+    "partnerId": "united",
+    "pointsRequired": 0,
+    "estimatedCashValue": 200,
+    "cpp": 0,
+    "category": "flight",
+    "route": "Free stopover flight"
+  },
+  {
+    "id": "hyatt-all-inclusive",
+    "name": "Hyatt All-Inclusive Resorts",
+    "description": "Use Hyatt points at Ziva/Zilara all-inclusive resorts. Standard rooms from 20,000-25,000 points/night",
+    "partnerId": "hyatt",
+    "pointsRequired": 25000,
+    "estimatedCashValue": 700,
+    "cpp": 2.8,
+    "category": "hotel",
+    "route": "Mexico/Caribbean"
+  },
+  {
+    "id": "southwest-companion-pass",
+    "name": "Southwest Companion Pass",
+    "description": "Earn 135,000 points in a year to get a companion flying free for up to 2 years",
+    "partnerId": "southwest",
+    "pointsRequired": 135000,
+    "estimatedCashValue": 5000,
+    "cpp": 3.7,
+    "category": "flight",
+    "route": "All Southwest routes"
+  }
+]
